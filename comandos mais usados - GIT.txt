@@ -1,0 +1,21 @@
+git add -> add arquivos ao container
+git status -> verifica modificações
+
+git commit -am -> comita e adiciona os arquivos ao container
+git commit -> comita o container
+
+git reset HEAD -> remove o conteudo do container, ao adicionar em um container
+git reset --hard (hash do commit ex: d302bab) -> exclui um commit  
+
+git branch -> verifica a branch atual
+
+git log --online -> lista os commits do repositorio
+git log --online --graph --all -> lista os commits do repositorio em modo grafo
+
+git checkout (nome da branch) -> muda de branch
+git checkout -b (nome da branch) -> cria uma nova branch
+
+git pull -> baixa atualizações do repositorio
+git fetch -> igual ao git pull, porem nao faz o merge dos projetos
+
+git push origin (nome na branch) -> sobe as alterações para o repositorio

@@ -19,3 +19,11 @@ git pull -> baixa atualizações do repositorio
 git fetch -> igual ao git pull, porem nao faz o merge dos projetos
 
 git push origin (nome na branch) -> sobe as alterações para o repositorio
+
+
+##### CRIAR CHAVE SSH PARA O GIT#####
+
+
+ssh-keygen -> Gera a chave ssh
+
+cat ~/.ssh/id_rsa.pub -> mostra a chave para copiar 
